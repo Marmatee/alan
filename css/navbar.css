@@ -82,21 +82,6 @@ li a:hover {
     text-shadow: none;
 }
 
-@keyframes alchemy {
-  0% {
-    color: #9D7D58;
-  }
-  33% {
-    color: #163AC6;
-  }
-  67% {
-    color: #60b860;
-  }
-  100% {
-    color: #9D7D58;
-  }
-}
-
 @media screen and ( max-width: 855px ) {
     li a {
       padding-right: 11px;

@@ -27,6 +27,11 @@ html {
     text-align: center;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 @media screen and ( max-width: 300px ) {
     .footer {
         font-size: 10px;
