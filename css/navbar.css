@@ -1,0 +1,153 @@
+/*iPhone specific stuff*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  ul {
+      font-size: 70px;
+      transition: ease-in-out 0.2s;
+      box-shadow: none !important;
+      border-radius: 0px !important;
+      width: 985px;
+      height: 110%;
+      background: none !important;
+  }
+  .alchemy {
+    font-size: 90px !important;
+    margin-left: 25px;
+    transition: ease-in-out 0.2s;
+    padding-right: 25px !important;
+  }
+  li a {
+    line-height: 160px !important;
+    display: flex !important;
+  }
+  li {
+    display: inline !important;
+  }
+
+  li a:active {
+    transition: ease-in-out 0.2s;
+    background-color: #fe5f55;
+  }
+
+  li a:hover {
+    transition: ease-in-out 0.2s;
+    background-color: #fe5f55;
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+li a {
+    line-height: 100px !important;
+}
+}
+
+/*End of iPhone stuff*/
+
+html {
+  overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #4f6367;
+    transition: ease-in-out 0.2s;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 15px 37px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    transform: translate(0%, 0%);
+    line-height: 15px;
+    transition: ease-in-out 0.2s;
+}
+
+li a:hover {
+    transition: ease-in-out 0.2s;
+    background-color: #fe5f55;
+}
+
+::selection {
+    background: #333;
+    color: #fff;
+    text-shadow: none;
+}
+
+.alchemy {
+    display: inline;
+    font-family: 'alchemy';
+    color: white;
+    animation: alchemy 5s infinite;
+    padding-right: 4px;
+    font-size: 30px;
+    transition: ease-in-out 0.2s;
+}
+
+@keyframes alchemy {
+  0% {
+    color: #9D7D58;
+  }
+  33% {
+    color: #163AC6;
+  }
+  67% {
+    color: #60b860;
+  }
+  100% {
+    color: #9D7D58;
+  }
+}
+
+@media screen and ( max-width: 855px ) {
+    li a {
+      padding-right: 11px;
+    }
+}
+
+@media screen and ( max-width: 400px ) {
+    ul {
+      display: list-item;
+      transition: ease-in-out 0.2s;
+      text-align: center;
+    }
+    .alchemy {
+      margin-left: -30px;
+      transition: ease-in-out 0.2s;
+    }
+    li {
+        display: inline;
+    }
+    li a {
+      display: block;
+      text-align: center;
+    }
+}
+
+@media screen and ( max-width: 300px ) {
+    ul {
+      transition: ease-in-out 0.2s;
+    }
+    .alchemy {
+      font-size: 20px;
+      margin-left: -30px;
+      transition: ease-in-out 0.2s;
+    }
+    li {
+        display: inline;
+    }
+}

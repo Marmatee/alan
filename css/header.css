@@ -1,0 +1,73 @@
+/*Stuff to make it work on iPhone*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  p.subheading {
+      position: absolute;
+      top: 390px !important;
+      left: 50% !important;
+      transition: ease-in-out 0.2s;
+      font-size: 45px;
+      transform: translate(-50%, 0%) !important;
+  }
+
+  img.header {
+      top: 224px !important;
+      max-height: 370px !important;
+      height: 370px;
+  }
+
+  .box {
+      height: 500px !important;
+      border-radius: 0px !important;
+      width: 1280px !important;
+      margin-left: -1px;
+      background-size: 100px !important;
+  }
+}
+/*End of iPhone stuff*/
+
+html {
+  overflow-x: hidden;
+}
+
+.box {
+    background: #4f6367;
+    height: 300px;
+}
+
+img.header {
+    margin: 0;
+    position: absolute;
+    top: 125px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 400px;
+}
+
+p.subheading {
+    position: absolute;
+    top: 237px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    transition: ease-in-out 0.2s;
+}
+
+::selection {
+    background: #333;
+    color: #fff;
+    text-shadow: none;
+}
+
+@media screen and ( max-width: 500px ) {
+    .subheading {
+      transition: ease-in-out 0.2s;
+      margin: 10px;
+    }
+}

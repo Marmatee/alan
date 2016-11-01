@@ -1,0 +1,40 @@
+/*Stuff to make it work on iPhone*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .footer {
+      font-size: 45px;
+      padding-top: 35px !important;
+      height: 60px;
+      border-radius: 0px !important;
+      width: 100% !important;
+      background-size: 100px !important;
+}
+}
+/*End of iPhone stuff*/
+
+
+html {
+  overflow-x: hidden;
+}
+
+.footer {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background: #4f6367;
+    padding: 15px 16px;
+    text-align: center;
+}
+
+@media screen and ( max-width: 300px ) {
+    .footer {
+        font-size: 10px;
+    }
+}
+
+::selection {
+    background: #333;
+    color: #fff;
+    text-shadow: none;
+}
