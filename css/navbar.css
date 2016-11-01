@@ -11,12 +11,6 @@ and (max-device-width : 568px) {
       height: 110%;
       background: none !important;
   }
-  .alchemy {
-    font-size: 90px !important;
-    margin-left: 25px;
-    transition: ease-in-out 0.2s;
-    padding-right: 25px !important;
-  }
   li a {
     line-height: 160px !important;
     display: flex !important;
@@ -88,16 +82,6 @@ li a:hover {
     text-shadow: none;
 }
 
-.alchemy {
-    display: inline;
-    font-family: 'alchemy';
-    color: white;
-    animation: alchemy 5s infinite;
-    padding-right: 4px;
-    font-size: 30px;
-    transition: ease-in-out 0.2s;
-}
-
 @keyframes alchemy {
   0% {
     color: #9D7D58;
@@ -125,10 +109,6 @@ li a:hover {
       transition: ease-in-out 0.2s;
       text-align: center;
     }
-    .alchemy {
-      margin-left: -30px;
-      transition: ease-in-out 0.2s;
-    }
     li {
         display: inline;
     }
@@ -140,11 +120,6 @@ li a:hover {
 
 @media screen and ( max-width: 300px ) {
     ul {
-      transition: ease-in-out 0.2s;
-    }
-    .alchemy {
-      font-size: 20px;
-      margin-left: -30px;
       transition: ease-in-out 0.2s;
     }
     li {

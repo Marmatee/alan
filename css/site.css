@@ -74,10 +74,6 @@ and (max-device-width : 568px) {
       background-size: 100px !important;
   }
 
-  .alchemy {
-    font-size: 100px !important;
-  }
-
   body {
       margin: 0px !important;
       margin-left: 0px !important;
@@ -211,16 +207,6 @@ embed.footer {
     background: #333;
     color: #fff;
     text-shadow: none;
-}
-
-.alchemy {
-    display: inline;
-    font-family: 'alchemy';
-    color: white;
-    animation: alchemy 5s infinite;
-    padding-right: 20px;
-    font-size: 30px;
-    vertical-align: middle;
 }
 
 .x {
