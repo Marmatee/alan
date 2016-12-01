@@ -1,5 +1,7 @@
 # Alan
 
+https://cdn.rawgit.com/Marmatee/alan/master/index.html
+
 ## To do
 - Correct Firefox bug where carousel is not centered on screenshots page.
 - Correct Edge/IE bug where the header scrolls when it shouldn't do
